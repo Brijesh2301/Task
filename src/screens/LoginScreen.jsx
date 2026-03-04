@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ThemeToggle from "../components/ThemeToggle";
+
 import { FaMeta } from "react-icons/fa6";
 import { FaApple } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
@@ -108,9 +108,7 @@ export default function LoginScreen({ onLogin }) {
     Sign up
   </h2>
 
-  <div className="absolute right-0">
-    <ThemeToggle />
-  </div>
+ 
 </div>
          
            <p className="text-sm text-center  items-center font-semibold text-gray-600 mb-6">
