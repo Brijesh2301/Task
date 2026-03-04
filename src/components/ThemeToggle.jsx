@@ -1,4 +1,4 @@
-import { useTheme } from "./context/ThemeContext";
+import { useTheme } from "../context/ThemeContext"; // ← ../ add karo
 
 export default function ThemeToggle() {
   const { isDark, toggle } = useTheme();
