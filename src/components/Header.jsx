@@ -1,5 +1,5 @@
 import ThemeToggle from "./ThemeToggle";
-import { useTheme } from "../context/ThemeContext1";
+import { useTheme } from "../context/ThemeContext";
 
 export default function Header({ breadcrumbs = [], actions }) {
   const { isDark } = useTheme();

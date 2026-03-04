@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Header from "../components/Header";
 import { SeverityBadge } from "../components/Badges";
 import { mockActivityLogs, mockFindings } from "../data/mockData";
-import { useToast } from "../context/ToastContext1";
+import { useToast } from "../context/ToastContext";
 
 const STEPS = ["Spidering", "Mapping", "Testing", "Validating", "Reporting"];
 
