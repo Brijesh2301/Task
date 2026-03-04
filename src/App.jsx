@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import LoginScreen from "./screens/LoginScreen";
-import DashboardScreen from "./screens/DashboardScreen";
+import DashboardScreen from "./screens/DashBoardScreen1";
 import ScanDetailScreen from "./screens/ScanDetailScreen";
 import Layout from "./components/Layout";
 
